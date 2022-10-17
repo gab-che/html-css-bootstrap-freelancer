@@ -3,7 +3,9 @@
 }
 
 
-
+section{
+    padding: 2rem 0;
+}
 /* --------------
     media queries
 ----------------- */
@@ -15,5 +17,5 @@
 
 /* Desktop -  LG*/
 @media screen and (min-width: 992px){
-
+    
 }
