@@ -17,8 +17,19 @@ section{
 
 .star_spacer{
     max-width: 25%;
-    background-color: brown;
     margin: auto;
+    padding-bottom: 1rem;
+}
+
+.star_line{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.star_line_dark{
+    background-color: black;
 }
 
 .img_avatar{
