@@ -1,7 +1,11 @@
 :root{
-
+    --bs-primary: #1abc9c;
+    --bs-secondary: #2c3e50;
+    --bs-success: #3a546d;
+    --bs-primary-rgb: 26, 188, 156;
+    --bs-secondary-rgb: 44, 62, 80;
+    --bs-success-rgb: 58, 84, 109;
 }
-
 
 section{
     padding: 2rem 0;
