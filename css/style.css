@@ -63,6 +63,23 @@ form label[for^="floating"]{
     background-color: var(--bs-success);
 }
 
+.btn_white{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn_white:hover{
+    color: var(--bs-secondary);
+    border: 1px solid var(--bs-secondary);
+}
+
+.btn_circle{
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
 /* --------------
     media queries
 ----------------- */
