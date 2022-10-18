@@ -7,6 +7,12 @@ section{
     padding: 2rem 0;
 }
 
+.star_spacer{
+    max-width: 25%;
+    background-color: brown;
+    margin: auto;
+}
+
 form > *:not(:last-child){
     width: 100%;
     margin-bottom: 1rem;
