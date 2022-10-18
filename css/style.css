@@ -11,6 +11,10 @@ section{
     padding: 2rem 0;
 }
 
+.section_text{
+    text-align: center;
+}
+
 .star_spacer{
     max-width: 25%;
     background-color: brown;
@@ -22,9 +26,30 @@ section{
     margin: auto;
 }
 
-form > *:not(:last-child){
-    width: 100%;
-    margin-bottom: 1rem;
+form textarea#textarea{
+    height: 150px;
+}
+
+form input.form-control,
+form textarea#textarea{
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+form label[for^="floating"]{
+    padding-left: 0;
+}
+
+.btn_primary{
+    background-color: var(--bs-primary);
+    border: none;
+    color: white;
+}
+
+.btn_primary:hover{
+    background-color: var(--bs-success);
 }
 
 /* --------------
