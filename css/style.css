@@ -11,6 +11,14 @@ section{
     padding: 2rem 0;
 }
 
+a{
+    color: var(--bs-primary);
+}
+
+a:hover{
+    color: var(--bs-secondary);
+}
+
 .section_text{
     text-align: center;
 }
@@ -79,6 +87,7 @@ form label[for^="floating"]{
     aspect-ratio: 1;
     border-radius: 50%;
 }
+
 
 /* --------------
     media queries
